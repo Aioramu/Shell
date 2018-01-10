@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include<string.h>
 int main(void){
+    char command[BUFSIZ];
     int st;
     pid_t pid;
 
@@ -27,4 +28,3 @@ continue;
 printf("\n");
 }
 }
-
